@@ -78,30 +78,32 @@ const Footer = () => {
     <footer className="bg-black text-white py-16 max-md:py-8">
       <div className="container mx-auto px-4 flex flex-col items-start mb-8 text-base">
         <div className="w-full flex max-md:flex-col">
-          <div className="flex max-md:flex-col gap-4 w-full">
+          <div className="flex flex-col gap-4 md:w-1/2">
             {/* Desktop Only Sections */}
-            <div className="max-md:hidden flex flex-col">
-              <h3 className="font-bold text-gray-600">NEED ANY HELP?</h3>
-              <div className="flex flex-col gold-gradient">
-                <a href="#">Contact Us</a>
-                <a href="#">My Order</a>
-                <a href="#">FAQs</a>
-                <a href="#">Unsubscribe</a>
-                <a href="#">Sitemap</a>
+            <div className="flex max-md:flex-col">
+              <div className="max-md:hidden flex flex-col w-1/2">
+                <h3 className="font-bold text-gray-600">NEED ANY HELP?</h3>
+                <div className="flex flex-col gold-gradient">
+                  <a href="#">Contact Us</a>
+                  <a href="#">My Order</a>
+                  <a href="#">FAQs</a>
+                  <a href="#">Unsubscribe</a>
+                  <a href="#">Sitemap</a>
+                </div>
               </div>
-            </div>
 
-            <div className="max-md:hidden flex flex-col w-1/2">
-              <h3 className="font-bold text-gray-600">QUICK LINKS</h3>
-              <div className="flex flex-col gold-gradient">
-                <a href="#">Home</a>
-                <a href="#">Shop</a>
-                <a href="#">Collections</a>
-                <a href="#">Press</a>
-                <a href="#">About Nato</a>
-                <a href="#">Privacy & Cookies</a>
-                <a href="#">Legal</a>
-                <a href="#">Management</a>
+              <div className="max-md:hidden flex flex-col w-1/2">
+                <h3 className="font-bold text-gray-600">QUICK LINKS</h3>
+                <div className="flex flex-col gold-gradient">
+                  <a href="#">Home</a>
+                  <a href="#">Shop</a>
+                  <a href="#">Collections</a>
+                  <a href="#">Press</a>
+                  <a href="#">About Nato</a>
+                  <a href="#">Privacy & Cookies</a>
+                  <a href="#">Legal</a>
+                  <a href="#">Management</a>
+                </div>
               </div>
             </div>
 
@@ -193,7 +195,7 @@ const Footer = () => {
             {partners.map((partner) => (
               <div
                 key={partner.name}
-                className="flex justify-start space-y-3 min-w-[1200px] max-md:min-w-[60px]"
+                className="flex justify-start space-y-3 min-w-[120px] max-md:min-w-[60px]"
               >
                 <div className="w-[80px] max-md:w-[50px] h-[50px] max-md:h-[25px] relative p-0 hover-lift flex items-center justify-start">
                   <img

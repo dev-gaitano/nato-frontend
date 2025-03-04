@@ -10,7 +10,9 @@ const About = () => {
       </div>
       <div className="absolute md:bottom-32 max-md:top-12 left-60 max-lg:left-12 md:translate-y-[-50%] w-full">
         <p className="gold-gradient w-[540px] max-md:w-[375px] text-xl max-md:text-xs">
-          <span className="inline text-7xl float-start mr-1 font-other">E</span>
+          <span className="inline text-7xl max-md:text-6xl float-start mr-1 font-other">
+            E
+          </span>
           very woman is a masterpiece, and my designs celebrate her unique
           colors, shapes, and spirit. At NATO, fashion is more than style—it's a
           movement of inclusivity, embracing women and vulnerable communities

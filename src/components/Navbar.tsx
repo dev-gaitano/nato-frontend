@@ -55,7 +55,7 @@ const Navbar = () => {
             </div>
           )}
 
-          <a href="/" className="flex w-[450px] justify-center">
+          <a href="/" className="flex w-[450px]">
             <img
               src="https://www.aulgahnato.com/wp-content/uploads/2021/01/nato-logo.png"
               alt="logo-image"

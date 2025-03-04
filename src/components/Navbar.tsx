@@ -55,31 +55,19 @@ const Navbar = () => {
             </div>
           )}
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6 text-primary hover:text-foreground transition-colors duration-300 ease-in-out" />
-            )}
-          </button>
-
-          <a href="/" className="flex justify-center w-[450px]">
+          <a href="/" className="flex w-[450px]">
             <img
               src="https://www.aulgahnato.com/wp-content/uploads/2021/01/nato-logo.png"
               alt="logo-image"
               className={`w-24 transition-all duration-500 ease-in-out ${
                 isScrolled
-                  ? "scale-100 translate-y-0"
-                  : "translate-y-96 scale-[8]"
+                  ? "md:scale-100 translate-y-0 justify-center max-md:justify-start"
+                  : "translate-y-96 max-md:translate-y-60 scale-[8] max-md:scale-[4] max-md:translate-x-6 mx-auto"
               }`}
             />
           </a>
 
-          <div className="flex items-center justify-end space-x-4 w-[450px]">
+          <div className="max-md:hidden flex items-center justify-end space-x-4 w-[450px]">
             <button className="p-2 text-primary hover:text-black">
               <Search size={20} />
             </button>
@@ -93,6 +81,18 @@ const Navbar = () => {
               <ShoppingBag size={20} />
             </button>
           </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6 text-primary hover:text-foreground transition-colors duration-300 ease-in-out" />
+            )}
+          </button>
         </div>
 
         {/* Mobile Menu */}

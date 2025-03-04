@@ -5,11 +5,11 @@ const About = () => {
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/2/2c/African_Girl.JPG"
           alt="about-image-background"
-          className="w-full object-cover"
+          className="w-full h-full max-md:h-[52rem] object-cover object-center"
         />
       </div>
-      <div className="absolute bottom-32 left-60 translate-y-[-50%] w-full">
-        <p className="gold-gradient w-[540px] text-xl">
+      <div className="absolute md:bottom-32 max-md:top-12 left-60 max-lg:left-12 md:translate-y-[-50%] w-full">
+        <p className="gold-gradient w-[540px] max-md:w-[375px] text-xl max-md:text-xs">
           <span className="inline text-7xl float-start mr-1 font-other">E</span>
           very woman is a masterpiece, and my designs celebrate her unique
           colors, shapes, and spirit. At NATO, fashion is more than style—it's a
@@ -20,8 +20,10 @@ const About = () => {
           modern elegance. From bespoke couture to ready-to-wear, NATO is a
           tapestry of artistry, purpose, and empowerment.{" "}
         </p>
-        <p className="text-primary mt-4">~ Aulgah Nato</p>
-        <button className="border border-primary text-primary text-xs px-6 py-3 mt-8 transition-all ease-out duration-500 hover:border-gray-600 hover:text-gray-600 hover:px-3 hover:py-2">
+        <p className="text-primary mt-4 max-md:mt-2 text-xl max-md:text-xs">
+          ~ Aulgah Nato
+        </p>
+        <button className="border border-primary text-primary text-xs px-6 py-3 mt-8 max-md:mt-4 transition-all ease-out duration-500 hover:border-gray-600 hover:text-gray-600 hover:px-3 hover:py-2">
           MORE ABOUT US
         </button>
       </div>

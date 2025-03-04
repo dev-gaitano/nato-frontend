@@ -28,7 +28,7 @@ const Hero = () => {
     >
       <section
         id="hero"
-        className="min-h-screen relative flex items-end justify-center overflow-hidden pt-16"
+        className="min-h-screen max-md:min-h-[900px] relative flex items-end justify-center overflow-hidden pt-16"
       >
         <div className="h-screen w-screen absolute inset-0 transition-all">
           <div className="object-cover object-center w-full h-full">

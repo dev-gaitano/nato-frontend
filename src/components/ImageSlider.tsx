@@ -18,7 +18,7 @@ const ImageSlider = ({ images }) => {
           key={index}
           src={image}
           alt={`Slide ${index}`}
-          className={`absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-1000 ${
+          className={`absolute inset-0 w-full h-full max-md:h-[900px] object-cover object-center transition-opacity duration-1000 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
           loading="lazy"

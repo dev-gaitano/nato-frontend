@@ -62,7 +62,7 @@ const Navbar = () => {
               className={`w-24 transition-all duration-500 ease-in-out ${
                 isScrolled
                   ? "md:scale-100 translate-y-0 justify-center max-md:justify-start mx-2"
-                  : "translate-y-96 max-md:translate-y-60 scale-[8] max-md:scale-[4] max-md:translate-x-[8rem] mx-auto"
+                  : "translate-y-96 max-md:translate-y-40 scale-[8] max-md:scale-[2] max-md:translate-x-[8rem] mx-auto"
               }`}
             />
           </a>

@@ -55,26 +55,26 @@ const Navbar = () => {
             </div>
           )}
 
-          <a href="/" className="flex w-[450px]">
+          <a href="/" className="flex w-[450px] border">
             <img
               src="https://www.aulgahnato.com/wp-content/uploads/2021/01/nato-logo.png"
               alt="logo-image"
               className={`w-24 transition-all duration-500 ease-in-out ${
                 isScrolled
-                  ? "md:scale-100 translate-y-0 justify-center max-md:justify-start"
-                  : "translate-y-96 max-md:translate-y-60 scale-[8] max-md:scale-[4] max-md:translate-x-6 mx-auto"
+                  ? "md:scale-100 translate-y-0 justify-center max-md:justify-start mx-2"
+                  : "translate-y-96 max-md:translate-y-60 scale-[8] max-md:scale-[4] max-md:translate-x-[8rem] mx-auto"
               }`}
             />
           </a>
 
-          <div className="max-md:hidden flex items-center justify-end space-x-4 w-[450px]">
+          <div className="flex items-center justify-end space-x-4 max-md:space-x-2 w-[450px]">
             <button className="p-2 text-primary hover:text-black">
               <Search size={20} />
             </button>
-            <button className="p-2 text-primary hover:text-black">
+            <button className="max-md:hidden p-2 text-primary hover:text-black">
               <User size={20} />
             </button>
-            <button className="p-2 text-primary hover:text-black">
+            <button className="max-md:hidden p-2 text-primary hover:text-black">
               <Heart size={20} />
             </button>
             <button className="p-2 text-primary hover:text-black">
@@ -88,9 +88,9 @@ const Navbar = () => {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
-              <X className="h-6 w-6" />
+              <X className="h-6 w-6 mx-2" />
             ) : (
-              <Menu className="h-6 w-6 text-primary hover:text-foreground transition-colors duration-300 ease-in-out" />
+              <Menu className="h-6 w-6 mx-2 text-primary hover:text-foreground transition-colors duration-300 ease-in-out" />
             )}
           </button>
         </div>
@@ -134,6 +134,18 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact
+              </MobileNavLink>
+              <MobileNavLink
+                href="/#contact"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                My Favourites
+              </MobileNavLink>
+              <MobileNavLink
+                href="/#contact"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                My Profile
               </MobileNavLink>
             </div>
           </div>

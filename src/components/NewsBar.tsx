@@ -51,19 +51,12 @@ const OffersBar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-[60] bg-foreground text-white transition-all duration-300">
       <div className="container mx-auto px-4 py-2 flex items-center justify-center relative">
-        <div className="text-sm font-medium text-center transition-opacity duration-300">
+        <div className="text-sm md-max:text-xs font-medium text-center transition-opacity duration-300">
           {currentOffer.text}{" "}
           <span className="font-bold text-primary animate-pulse">
             {currentOffer.code}
           </span>
         </div>
-        {/* <button
-          onClick={() => setIsDismissed(true)}
-          className="absolute right-4 hover:opacity-75 transition-opacity"
-          aria-label="Dismiss offer"
-        >
-          <X size={16} />
-        </button> */}
       </div>
     </div>
   );

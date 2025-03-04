@@ -18,6 +18,9 @@ export default {
       },
     },
     extend: {
+      fontSize: {
+        xxs: "0.625rem", // Custom size smaller than xs (10px)
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

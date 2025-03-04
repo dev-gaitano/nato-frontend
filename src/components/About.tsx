@@ -6,6 +6,7 @@ const About = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/2/2c/African_Girl.JPG"
           alt="about-image-background"
           className="w-full h-full max-md:h-[52rem] object-cover object-center"
+          loading="lazy"
         />
       </div>
       <div className="absolute md:bottom-32 max-md:top-12 left-60 max-lg:left-12 md:translate-y-[-50%] w-full">

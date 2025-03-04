@@ -21,6 +21,7 @@ const ImageSlider = ({ images }) => {
           className={`absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-1000 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
+          loading="lazy"
         />
       ))}
     </div>

@@ -4,10 +4,7 @@ import { motion } from "framer-motion";
 import ImageSlider from "./ImageSlider";
 
 const Hero = () => {
-  const images = [
-    "https://upload.wikimedia.org/wikipedia/commons/9/9d/African_Fashion_in_the_City_2.JPG",
-    "https://images.pexels.com/photos/6191951/pexels-photo-6191951.jpeg",
-  ];
+  const images = ["/public/hero-img-0-comp.jpg", "/hero-img-1-comp.jpg"];
 
   const [isScrolled, setIsScrolled] = useState(false);
 

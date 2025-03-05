@@ -1,4 +1,4 @@
-import AboutImage from "../../public/about-img-comp.jpeg";
+import AboutImage from "/about-img-comp.jpeg";
 
 const About = () => {
   return (

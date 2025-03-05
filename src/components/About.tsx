@@ -1,9 +1,11 @@
+import AboutImage from "../../public/about-img-comp.jpeg";
+
 const About = () => {
   return (
     <section id="about" className="relative overflow-hidden p-4">
       <div className="relative">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/2/2c/African_Girl.JPG"
+          src={AboutImage}
           alt="about-image-background"
           className="w-full h-full max-md:h-[52rem] object-cover object-center"
           loading="lazy"

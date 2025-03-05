@@ -28,7 +28,7 @@ const Hero = () => {
     >
       <section
         id="hero"
-        className="min-h-screen max-md:min-h-[900px] relative flex items-end justify-center overflow-hidden pt-16"
+        className="min-h-screen relative flex items-end justify-center overflow-hidden pt-16"
       >
         <div className="h-screen w-screen absolute inset-0 transition-all">
           <div className="object-cover object-center w-full h-full">
@@ -52,7 +52,7 @@ const Hero = () => {
             }`}
           />
         </div>
-        <div className="container mx-auto px-4 h-screen-minus-20 relative border">
+        <div className="container mx-auto px-4 h-screen-minus-20 relative">
           <div className="max-w-4xl h-full mx-auto text-center animate-fadeIn flex flex-col items-center justify-end pb-16">
             <a
               href="/#collections"

@@ -9,7 +9,7 @@ const About = () => {
           loading="lazy"
         />
       </div>
-      <div className="absolute md:bottom-32 max-md:top-12 left-60 max-lg:left-10 md:translate-y-[-50%] w-full">
+      <div className="absolute md:bottom-32 max-md:top-10 left-60 max-lg:left-10 md:translate-y-[-50%] w-full">
         <p className="gold-gradient w-[540px] max-md:w-[320px] text-xl max-md:text-xs">
           <span className="inline text-7xl max-md:text-6xl float-start mr-1 font-other">
             E

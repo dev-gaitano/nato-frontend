@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ImageSlider from "./ImageSlider";
 
 const Hero = () => {
-  const images = ["/public/hero-img-0-comp.jpg", "/hero-img-1-comp.jpg"];
+  const images = ["/hero-img-0-comp.jpg", "/hero-img-1-comp.jpg"];
 
   const [isScrolled, setIsScrolled] = useState(false);
 

@@ -10,7 +10,7 @@ const About = () => {
         />
       </div>
       <div className="absolute md:bottom-32 max-md:top-10 left-60 max-lg:left-10 md:translate-y-[-50%] w-full">
-        <p className="gold-gradient w-[540px] max-md:w-[280px] text-xl max-md:text-xs">
+        <p className="gold-gradient w-[540px] max-md:w-[300px] text-xl max-md:text-xs">
           <span className="inline text-7xl max-md:text-6xl float-start mr-1 font-other">
             E
           </span>
@@ -20,8 +20,11 @@ const About = () => {
           with designs that honor all body types. Sustainability is at our core,
           weaving eco-consciousness into every stitch. Proudly Kenyan, our
           collections pulse with the rhythm of Africa, blending heritage with
-          modern elegance. From bespoke couture to ready-to-wear, NATO is a
-          tapestry of artistry, purpose, and empowerment.{" "}
+          modern elegance.{" "}
+          <span className="max-md:hidden">
+            From bespoke couture to ready-to-wear, NATO is a tapestry of
+            artistry, purpose, and empowerment.
+          </span>{" "}
         </p>
         <p className="text-primary mt-4 max-md:mt-2 text-xl max-md:text-xs">
           ~ Aulgah Nato

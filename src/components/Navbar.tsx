@@ -59,9 +59,9 @@ const Navbar = () => {
             <img
               src="https://www.aulgahnato.com/wp-content/uploads/2021/01/nato-logo.png"
               alt="logo-image"
-              className={`w-24 transition-all duration-500 ease-in-out ${
+              className={`w-24 transition-all justify-center duration-500 ease-in-out ${
                 isScrolled
-                  ? "md:scale-100 translate-y-0 justify-center max-md:justify-start mx-2"
+                  ? "md:scale-100 translate-y-0 max-md:justify-start mx-auto max-md:mx-2 "
                   : "translate-y-96 max-md:translate-y-40 scale-[8] max-md:scale-[3] max-md:translate-x-[6rem] mx-auto"
               }`}
             />

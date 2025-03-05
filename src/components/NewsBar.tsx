@@ -16,7 +16,7 @@ const offers = [
   },
   {
     text: "LIMITED TIME: Buy One Get One 50% Off with code",
-    code: "BOGO50",
+    code: "GAI50",
   },
 ];
 

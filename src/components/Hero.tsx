@@ -52,7 +52,7 @@ const Hero = () => {
             }`}
           />
         </div>
-        <div className="container mx-auto px-4 h-screen-minus-20 relative">
+        <div className="container mx-auto px-4 h-screen-minus-20 max-md:h-[880px] relative">
           <div className="max-w-4xl h-full mx-auto text-center animate-fadeIn flex flex-col items-center justify-end pb-16">
             <a
               href="/#collections"
